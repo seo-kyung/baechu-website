@@ -49,9 +49,9 @@ body {
     background-color: #ff00ff;
 }
 
-.screen {
+/* .screen {
     padding-bottom: 90px;
-}
+} */
 
 .title {
     font-size: 21px;
@@ -93,10 +93,6 @@ textarea {
 img {
     width: 100%;
 }
-/* .banners {
-    position: fixed;
-    bottom: 10px;
-} */
 
 
 .sticker {
