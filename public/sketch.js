@@ -19,3 +19,9 @@ button.addEventListener("click", async () => {
   window.location.reload(false); 
 });
 
+
+//loading box disappear after five seconds
+$( document ).ready(function() {
+    $('#loadingbox').delay(4000).fadeOut('fast');
+
+});
