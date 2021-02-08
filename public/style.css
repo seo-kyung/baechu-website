@@ -20,7 +20,7 @@ body {
 
 
 .title {
-font-size: 21px;
+font-size: 22px;
 margin: 0;
 padding: 0;
 border: 1px black;
@@ -40,7 +40,7 @@ position: relative;
 
 #loadingbox {
     position: fixed;
-    top: 76;
+    top: 82;
     width: 960px;
     height: 542px;
     z-index: 999999;
@@ -76,7 +76,7 @@ textarea {
     margin-bottom: 10px;
     padding: 0;
     
-    font-size: 20px;
+    font-size: 22px;
     transform:scale(1,1.1); 
     -webkit-transform:scale(1,1.1); 
     color: #683b11;
@@ -85,7 +85,7 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 0.06em; 
     line-height: 90%;
-    padding: 2px 0 2px 0;
+    padding: 4px 0 4px 0;
     
 }
 
