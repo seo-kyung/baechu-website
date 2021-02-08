@@ -108,25 +108,29 @@ hr {
     border-bottom: none;
 }
 
-.comment {
-    /* font-size: .7em; */
-    color: #3d210a;
-  
-    position: relative;
-    right: 0;
-}
+
 
 #comment_container {
     text-align: right;
     position: absolute;
     top: 10;
     right: 10;
-    width: 200px;
+    width: 20vw;
     z-index: 99;
 }
 
+.comment {
+    
+    color: #3d210a;
+    position: relative;
+    right: 0;
+}
+
+
 .time {
+    font-size: 0.75em;
     margin-bottom: 15px;
+    color:#3d210a;
 }
 
 

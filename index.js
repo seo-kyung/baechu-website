@@ -3,7 +3,7 @@ const Datastore = require('nedb');
 require('dotenv').config();
 console.log(process.env);
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 80 || 3000;
 app.listen(port, () => {
   console.log(`starting server at ${port}`);
 });

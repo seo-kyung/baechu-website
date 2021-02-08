@@ -19,6 +19,7 @@ async function getData(){
         const log_time = document.createElement('div');
         log_time.className = "time";
        
+        log_message.className ="words";
         log_message.textContent = item.message;
         const dateString = new Date(item.timestamp).toLocaleString();
         log_time.textContent = dateString;
