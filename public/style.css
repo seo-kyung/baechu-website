@@ -8,29 +8,31 @@ body {
     background-color: #2a632c;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow: hidden;
+    overflow: scroll;
     -webkit-font-smoothing: antialiased;
 }
 
 .content {
     text-transform: uppercase;
     position: relative;
-
 }
 
-
-.title {
-font-size: 21px;
-margin: 0;
-padding: 0;
-border: 1px black;
-
-color: #ff00ff;
-z-index: 20;
-/* height: 60px; */
-/* width: 100vw; */
-position: relative;
-
+.banner {
+    width: 960px;
+    margin-bottom: 10px;
+    padding: 0;
+    
+    font-size: 21px;
+    transform:scale(1,1.1); 
+    -webkit-transform:scale(1,1.1); 
+    color: #683b11;
+    background-color: #ff00ff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em; 
+    line-height: 92%;
+    padding: 3px 0 3px 0;
+    
 }
 
 #iframe1 {
@@ -50,6 +52,21 @@ position: relative;
 .screen {
     padding-bottom: 90px;
 }
+
+.title {
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    border: 1px black;
+    
+    color: #ff00ff;
+    z-index: 20;
+    /* height: 60px; */
+    /* width: 100vw; */
+    position: relative;
+    
+    }
+    
 
 textarea {
   width: 400px;
@@ -71,23 +88,7 @@ textarea {
     padding: 5px 10px;
 }
 
-.banner {
-    width: 960px;
-    margin-bottom: 10px;
-    padding: 0;
-    
-    font-size: 21px;
-    transform:scale(1,1.1); 
-    -webkit-transform:scale(1,1.1); 
-    color: #683b11;
-    background-color: #ff00ff;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.06em; 
-    line-height: 92%;
-    padding: 3px 0 3px 0;
-    
-}
+
 
 img {
     width: 100%;
@@ -127,3 +128,54 @@ hr {
 .time {
     margin-bottom: 15px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+   
+    .banner {
+        width: 96vw;
+        margin-bottom: 10px;
+        padding: 0;
+        
+        font-size: 4vw;
+        transform:scale(1,1.1); 
+        -webkit-transform:scale(1,1.1); 
+        color: #683b11;
+        background-color: #ff00ff;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.06em; 
+        line-height: 92%;
+        padding: 3px 0 3px 0;   
+    }
+
+    textarea {
+        width: 90vw;
+    }
+
+    .title{
+        font-size: 4vw;
+    }
+
+    #comment_container {
+        text-align: left;
+        position: relative;
+      left : 10;
+        width: 50vw;
+        z-index: 99;
+    }
+
+    #loadingbox {
+        position: fixed;
+        top: 115;
+        width: 960px;
+        height: 542px;
+        z-index: 999999;
+        background-color: #ff00ff;
+    }
+
+  iframe {
+      width: 
+  }
+  }
